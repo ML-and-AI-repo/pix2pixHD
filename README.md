@@ -117,6 +117,11 @@ If only GPUs with 12G memory are available, please use the 12G script (`bash ./s
 - Flags: see `options/train_options.py` and `options/base_options.py` for all the training flags; see `options/test_options.py` and `options/base_options.py` for all the test flags.
 - Instance map: we take in both label maps and instance maps as input. If you don't want to use instance maps, please specify the flag `--no_instance`.
 
+## Scheduled sampling
+- The training command (with scheduled sampling on) is the following:
+```bash
+python3 train_video.py --name water_project --dataroot ./datasets/water_dataset/ --save_epoch_freq 1 --ngf 32 --scheduled_sampling --serial_batches
+```
 
 ## Citation
 
