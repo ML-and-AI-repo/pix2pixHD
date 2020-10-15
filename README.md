@@ -1,3 +1,5 @@
+[Description of this branch](https://medium.com/@jctestud/video-generation-with-pix2pix-aed5b1b69f57)
+
 <img src='imgs/teaser_720.gif' align="right" width=360>
 
 <br><br><br><br>
